@@ -37,47 +37,55 @@ function Contact() {
         <div className="contact__content">
           <h3 className="contact__title">Talk to me</h3>
           <div className="contact__info">
-            <div className="contact__card">
+
+            <button className="contact__card">
+              <a href="mailto:habibullohzekirullayev@gmail.com">
               <i className="bx bx contact__card-icon"></i>
               <h3 className="contact__card-title">Email</h3>
-              <a
-                href="mailto:habibullohzekirullayev@example.com"
+              <p
                 className="contact__button"
               >
                 {" "}
                 <box-icon name='gmail' type='logo' ></box-icon>
+              </p>
               </a>
-            </div>
+            </button>
 
-            <div className="contact__card">
+            <button className="contact__card">
+              <a href="https://www.instagram.com/habibu77oh">
               <i className="bx bx contact__card-icon"></i>
               <h3 className="contact__card-title">Instagram</h3>
-              <a
-                href="https://www.instagram.com/habibu77oh"
+              <p
                 className="contact__button"
               >
                 {" "}
                 <box-icon name='instagram-alt' type='logo' ></box-icon>
+              </p>
               </a>
-            </div>
+            </button>
 
-            <div className="contact__card">
+            <button className="contact__card">
+              <a href="https://t.me/habibu77oh">
               <i className="bx bx contact__card-icon"></i>
               <h3 className="contact__card-title">Telegram</h3>
-              <a href="https://t.me/habibu77oh" className="contact__button">
+              <p className="contact__button">
                 {" "}
               <box-icon name='telegram' type='logo' ></box-icon>          
+              </p>
               </a>
-            </div>
+            </button>
 
-            <div className="contact__card">
+            <button className="contact__card">
+              <a href="https://github.com/habibu77oh">
               <i className="bx bx contact__card-icon"></i>
               <h3 className="contact__card-title">Github</h3>
-              <a href="https://github.com/habibu77oh" className="contact__button">
+              <p className="contact__button">
                 {" "}
               <box-icon name='github' type='logo' ></box-icon>          
+              </p>
               </a>
-            </div>
+            </button>
+
           </div>
         </div>
 

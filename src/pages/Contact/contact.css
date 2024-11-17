@@ -24,6 +24,7 @@
   padding: 1rem;
   border-radius: 0.75rem;
   text-align: center;
+  cursor: pointer;
 }
 
 .contact__card-title {
@@ -52,7 +53,7 @@
   width: 100%;
   height: 100%;
   border: 2px solid rgba(0, 0, 0, 0.3);
-  color: #b1b1b1;
+  color: #212121;
   outline: none;
   border-radius: 0.75rem;
   padding: 1.5rem;
