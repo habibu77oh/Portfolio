@@ -1,0 +1,139 @@
+.contact__container {
+  grid-template-columns: repeat(2, max-content);
+  justify-content: center;
+  column-gap: 6rem;
+  padding-bottom: 3rem;
+}
+
+.contact__title {
+  text-align: center;
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-medium);
+  margin-bottom: var(--mb-3);
+}
+
+.contact__info {
+  display: grid;
+  row-gap: 1rem;
+  grid-template-columns: 300px;
+}
+
+.contact__card {
+  background-color: var(--container-color);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  border-radius: 0.75rem;
+  text-align: center;
+}
+
+.contact__card-title {
+  font-weight: var(--font-medium);
+}
+
+.from {
+  width: 360px;
+  display: grid;
+}
+
+.contact__from-div {
+  position: relative;
+  margin-bottom: var(--mb-2);
+  height: 4rem;
+  width: 22rem;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact__from-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  color: #b1b1b1;
+  outline: none;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  z-index: 1;
+  background-color: var(--body-color);
+}
+
+.contact__from-tag {
+  position: absolute;
+  top: -0.75rem;
+  left: 1.25rem;
+  font-size: var(--smaller-font-size);
+  padding: 0.25rem;
+  background-color: var(--body-color);
+  z-index: 10;
+  color: #b1b1b1;
+}
+
+.contact__from-area {
+  height: 11rem;
+}
+.contact__from-area textarea {
+  resize: none;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+
+@media(max-width:992px){
+    .contact__container{
+        column-gap: 3rem;
+    }
+}
+
+@media(max-width:768px){
+    .contact__container{
+        grid-template-columns: 1fr;
+        row-gap: 3rem;
+    }
+
+    .contact__info{
+        justify-content: center;
+    }
+
+    .from{
+        margin: 0 auto;
+    }
+
+}
+
+
+@media(max-width:576px){
+    .contact__info{
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+
+    .from{
+        width: 100%;
+        display: grid;
+        justify-content: center;
+    }
+
+    
+    .contact__from-div{
+        width: 17rem;
+    }
+
+    .button{
+        display: flex;
+        justify-content: center;
+    }
+
+
+}
+
+@media(max-width:350px){
+
+
+
+}
