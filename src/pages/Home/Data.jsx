@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 function Data() {
   return (
@@ -9,9 +8,9 @@ function Data() {
       <p className="home__description" style={{color:'#212121'}}>
         HTML ,CSS ,JS ,REACT ,TAILWIND ,node ,Git/GitHub BOOTSTRAP ,MUI ,THREE.JS
       </p>
-      <Link to={'/contact'} className="button button--flex" style={{backgroundColor: "black",}}>
+      <a href="#Contact" className="button button--flex" style={{backgroundColor: "black",}}>
         Say Hello
-      </Link>
+      </a>
     </div>
   );
 }
